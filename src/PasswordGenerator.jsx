@@ -111,7 +111,7 @@ const PasswordGenerator = () => {
                     placeholder="Clique em 'Gerar'"
                 />
                 <button onClick={handleCopyPassword} className="copy-btn" disabled={!password}>
-                    {copied ? 'Texto copiado.' : 'Copy'}
+                    {copied ? 'Texto copiado.' : 'Copiar'}
                 </button>
             </div>
 
