@@ -14,7 +14,7 @@ const PasswordGenerator = () => {
     const [includeUppercase, setIncludeUppercase] = useState(true);
     const [includeLowercase, setIncludeLowercase] = useState(true);
     const [includeNumbers, setIncludeNumbers] = useState(true);
-    const [includeSymbols, setIncludeSymbols] = useState(false); // Mudei para false por padrão, mas você pode deixar true.
+    const [includeSymbols, setIncludeSymbols] = useState(true);
     
     // Estado para feedback do botão "Copy"
     const [copied, setCopied] = useState(false);

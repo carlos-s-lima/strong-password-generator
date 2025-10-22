@@ -1,6 +1,6 @@
 import React from 'react';
 import PasswordGenerator from './PasswordGenerator';
-import './App.css'; // Usaremos este CSS para centralizar
+import './App.css';
 
 function App() {
   return (
